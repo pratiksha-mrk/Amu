@@ -10,14 +10,14 @@ public class Second {
         insert hl;
         system.debug('Hospital is created '+hl);
     }
-    public void myMethod2(){
+    public void myMethod3(){
         list<Hospital__c>hlist=new list<Hospital__c>();
         for(integer i=0;i<3;i++){
             Hospital__c h = new Hospital__c();
-            h.Name= 'Opooooo Hospital';
+            h.Name= 'Opo Hospital';
             h.Hospital_Email__c='oppolo@gmail.com';
-            h.Hospital_Address__c='Mumbaiiii';
-            h.Phone_No__c='22222222222';
+            h.Hospital_Address__c='Mub';
+            h.Phone_No__c='11111111';
             hlist.add(h);
             system.debug('Hospital List '+hlist);
         }
