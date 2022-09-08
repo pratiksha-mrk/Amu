@@ -14,10 +14,10 @@ public class Second {
         list<Hospital__c>hlist=new list<Hospital__c>();
         for(integer i=0;i<3;i++){
             Hospital__c h = new Hospital__c();
-            h.Name= 'Oppolo Hospital';
+            h.Name= 'Opooooo Hospital';
             h.Hospital_Email__c='oppolo@gmail.com';
-            h.Hospital_Address__c='Pune';
-            h.Phone_No__c='2233656523';
+            h.Hospital_Address__c='Mumbaiiii';
+            h.Phone_No__c='22222222222';
             hlist.add(h);
             system.debug('Hospital List '+hlist);
         }
